@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #101010;
+        color: darkgreen;
+    }
+
+    .button {
+        background-color: darkgreen;
+        color: darkgray;
+    }
+
+    .button:disabled {
+        background-color: black;
+        color: darkgray;
+    }
+
+    .form-box, .note-box {
+        background-color: #a0a080;
+    }
+}

@@ -1,0 +1,119 @@
+body, .button {
+    font-family: 'Zen Dots', cursive;
+    font-size: 16pt;
+}
+
+.box {
+    display: flex;
+}
+
+.login-box {
+    font-family: roboto, serif;
+    width: 100%;
+}
+
+.login-box span {
+    font-size: 14pt;
+}
+
+.note-label {
+    font-weight: bold;
+}
+
+input {
+    margin-right: 1ex;
+}
+
+.button {
+    background-color: limegreen;
+    border: 1px solid gray;
+    color: white;
+    min-height: 36pt;
+    margin-right: 12pt;
+    text-align: center;
+    min-width: 6em;
+}
+
+#donateOk {
+    min-width: 4em;
+}
+
+.button:disabled {
+    background-color: lightgray;
+}
+
+.form-box {
+    position: relative;
+    top: 50px;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, 0);
+    background: lightgoldenrodyellow;
+    border: 1px solid grey;
+    padding: 1em;
+}
+
+.note {
+    font-family: "Roboto", serif;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6pt;
+    background: lightgoldenrodyellow;
+    font-family: "Roboto", serif;
+    font-size: 12pt;
+    min-height: 36pt;
+}
+
+#spinner {
+    float: left;
+    height: 100%;
+}
+
+.control-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1ex;
+}
+
+#amount {
+    font-family: Roboto, serif;
+    font-size: 12pt;
+    width: 10em;
+    padding: 10px;
+}
+
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.nft-box {
+    margin: 1em;
+    padding: 1ex;
+    background-color: lightgray;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+#nft-img {
+    width: 100%
+}
+
+.banner {
+    margin-top: 1em;
+}
